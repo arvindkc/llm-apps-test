@@ -24,6 +24,8 @@ if __name__ == '__main__':
     given the linked information {information} about a person I want you to create:
     1. A short summary
     2. A summary of their key technical skills
+    3. Years of experience
+    4. Companies they have worked for
     """
 
     summary_prompt_template = PromptTemplate(
